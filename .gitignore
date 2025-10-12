@@ -1,2 +1,3 @@
 *.csv
 TrafficLabelling/
+.venv/
