@@ -1,4 +1,5 @@
 *.csv
+.vscode/
 TrafficLabelling/
 .venv/
 __pycache__/
