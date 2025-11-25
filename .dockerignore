@@ -6,4 +6,7 @@ __pycache__/
 .git/
 .vscode/
 .reports/
-.TrafficLabelling/
+TrafficLabelling/
+.gitattributes
+.gitignore
+*.md

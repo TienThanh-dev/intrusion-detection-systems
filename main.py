@@ -105,7 +105,3 @@ async def predict_proba_endpoint(file: UploadFile = File(None), input_data: str 
     probs_list = [float(p[0]) if p and len(p) > 0 else None for p in probs]
 
     return {"labels": labels, "probabilities": probs_list}
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
